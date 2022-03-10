@@ -2,37 +2,34 @@
   <div id="app">
     <MyHeader />
     <MyMain />
-    <MusicList />
   </div>
 </template>
 
 <script>
-import MyHeader from './components/MyHeader.vue'
-import MyMain from './components/MyMain.vue'
-import MusicList from './components/MusicList.vue'
+import MyHeader from "./components/MyHeader.vue";
+import MyMain from "./components/MyMain.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     MyHeader,
     MyMain,
-    MusicList,
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss">
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-img{
-  width: 100%;
+img {
+  max-width: 100%;
 }
 #app {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  background-color: #1e2d3b;
 }
 </style>
