@@ -14,7 +14,7 @@
 </script>
 
 <style lang="scss" scoped>
-#myheader{
+#my-header{
   width: 100vw;
   background-color: #2E3A46;
   min-height: 70px;
