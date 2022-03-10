@@ -2,17 +2,20 @@
   <div id="app">
     <MyHeader />
     <MyMain />
+    <MusicList />
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
 import MyMain from './components/MyMain.vue'
+import MusicList from './components/MusicList.vue'
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyMain,
+    MusicList,
   }
 }
 </script>
