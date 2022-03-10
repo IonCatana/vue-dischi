@@ -39,7 +39,7 @@ export default {
 <style lang="scss" scoped>
 #my-main {
   width: 80%;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
