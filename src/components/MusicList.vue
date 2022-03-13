@@ -1,18 +1,12 @@
 <template>
-  
-    
-      <div class="card">
-        <div class="img-titolo">
-          <img :src="MusicList.poster" alt="" />
-        </div>
-        
-          <h5 class="card-title">{{ MusicList.title}}</h5>
-          <p class="card-text">{{ MusicList.author }}</p>
-          <p class="card-text">{{ MusicList.year }}</p>
-        
-      </div>
-    
- 
+  <div class="card">
+    <div class="img-titolo">
+      <img :src="MusicList.poster" alt="" />
+    </div>
+    <h5 class="card-title">{{ MusicList.title }}</h5>
+    <p class="card-text">{{ MusicList.author }}</p>
+    <p class="card-text">{{ MusicList.year }}</p>
+  </div>
 </template>
 
 <script>
@@ -21,6 +15,7 @@ export default {
     MusicList: {
       type: Object,
       require: true,
+      
     },
   },
 };
@@ -30,15 +25,15 @@ export default {
 .card {
   padding: 20px;
   text-align: center;
-  width: calc((100% / 5 ) - 30px);
+  width: calc((100% / 5) - 30px);
   min-height: 360px;
   background-color: #2e3a46;
 }
-.img-titolo {   
+.img-titolo {
   display: block;
-  aspect-ratio: 1/1 ;  
+  aspect-ratio: 1/1;
 }
-h5{
+h5 {
   margin-top: 20px;
 }
 .card-title {
@@ -51,5 +46,4 @@ h5{
   color: grey;
   font-size: 19px;
 }
-
 </style>

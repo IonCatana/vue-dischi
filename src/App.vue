@@ -31,6 +31,5 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1e2d3b;
-  height: 100vh;
 }
 </style>

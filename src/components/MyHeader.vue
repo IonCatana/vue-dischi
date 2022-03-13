@@ -1,27 +1,26 @@
 <template>
   <div id="my-header">
     <div class="logo">
-      <img src="../assets/spotify-logo.png" alt="">
+      <img src="../assets/spotify-logo.png" alt="" />
     </div>
   </div>
 </template>
 
 <script>
-
-  export default {
-    
-  }
+export default {};
 </script>
 
 <style lang="scss" scoped>
-#my-header{
+#my-header {
   width: 100vw;
-  background-color: #2E3A46;
+  background-color: #2e3a46;
   min-height: 70px;
   display: flex;
   align-items: center;
 }
-.logo{
+.logo {
+  display: flex;
+  align-items: center;
   width: 50px;
   margin-left: 20px;
 }
