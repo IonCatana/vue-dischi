@@ -1,6 +1,8 @@
 <template>
   <div id="my-main">
-    <div><SelectedAlbum @selectedAlbums="select" /></div>
+    <div>
+      <SelectedAlbum @selectedAlbums="select" />
+    </div>
     <div class="music-list">
       <MusicList v-for="(el, i) in MusicLists" :key="i" :MusicList="el" />
     </div>
@@ -19,7 +21,7 @@ export default {
   data() {
     return {
       MusicLists: [],
-      optionSelected: "",
+      
     };
   },
   methods: {
@@ -42,7 +44,7 @@ export default {
   computed: {
     getFilteredAlbums() {
       if (this.optionSelected === "All") {
-        return this.MusicList
+        return this.MusicList;
       }
       const filteredAlbums = this.MusicList.filter((poster) => {
         return poster.genre.inludes(this.optionSelected);

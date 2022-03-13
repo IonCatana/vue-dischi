@@ -15,7 +15,7 @@ export default {
     MusicList: {
       type: Object,
       require: true,
-      
+      optionSelected: "",
     },
   },
 };

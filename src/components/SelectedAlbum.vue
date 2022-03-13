@@ -25,19 +25,19 @@ export default {
   },
   methods: {
     selectedAlbums(optionSelected) {
-      console.log(optionSelected)
-      console.log(this.selected)
+      console.log(optionSelected);
+      console.log(this.selected);
     },
   },
 };
 </script>
 
 <style lang="scss" scoped>
-form{
+form {
   padding-top: 40px;
   text-align: center;
 }
-select{
+select {
   width: 200px;
   padding: 5px 10px;
   border-radius: 10px;
